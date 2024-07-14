@@ -61,3 +61,7 @@ myMap.forEach(val => {
 //only to get the keys and only to get the values
 console.log(myMap.keys())  // { name, age }
 console.log(myMap.values())  // { Riyas, 23 }
+
+myMap.delete('age') // to delete the particular value using key
+myMap.clear() // to delete the hole map Object
+console.log(myMap)
