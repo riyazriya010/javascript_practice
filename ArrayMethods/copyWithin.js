@@ -3,4 +3,5 @@
 
 const fruits = ['Banana', 'Apple', 'Orange', 'Mango']
 
-console.log(fruits.copyWithin(0, 1, 2))
+                                         // [   0      1      2       3   ]
+console.log(fruits.copyWithin(0, 1, 2))  // [ Apple, Apple, Orange, Mango ]
