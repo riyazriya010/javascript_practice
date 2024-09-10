@@ -1,0 +1,39 @@
+
+
+concat() - Merges two or more arrays and returns a new array.
+copyWithin() - Copies part of an array to another location within the same array.
+entries() - Returns a new Array Iterator object that contains the key/value pairs for each index.
+every() - Checks if all elements in an array pass a test, returning true or false.
+fill() - Fills all elements in an array with a static value.
+filter() - Creates a new array with all elements that pass a test.
+find() - Returns the value of the first element that passes a test.
+findIndex() - Returns the index of the first element that passes a test.
+findLast() - Returns the value of the last element that passes a test.
+findLastIndex() - Returns the index of the last element that passes a test.
+flat() - Creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
+flatMap() - First maps each element using a mapping function, then flattens the result into a new array.
+forEach() - Executes a provided function once for each array element.
+from() - Creates a new array from an array-like or iterable object.
+includes() - Determines if an array contains a specified element, returning true or false.
+indexOf() - Returns the first index at which a specified element is found.
+isArray() - Checks if a value is an array, returning true or false.
+join() - Joins all elements of an array into a string.
+keys() - Returns a new Array Iterator that contains the keys for each index in the array.
+lastIndexOf() - Returns the last index at which a specified element is found.
+map() - Creates a new array with the results of calling a provided function on every element.
+pop() - Removes the last element from an array and returns that element.
+push() - Adds one or more elements to the end of an array and returns the new length.
+reduce() - Executes a reducer function on each element of the array, resulting in a single output value.
+reduceRight() - Executes a reducer function on each element of the array, from right to left, resulting in a single output value.
+reverse() - Reverses the order of the elements in an array.
+shift() - Removes the first element from an array and returns that element.
+slice() - Returns a shallow copy of a portion of an array into a new array object.
+some() - Checks if at least one element in an array passes a test, returning true or false.
+sort() - Sorts the elements of an array in place and returns the sorted array.
+splice() - Adds or removes elements from an array.
+toLocaleString() - Returns a string representing the elements of the array.
+toString() - Converts an array to a string of comma-separated values.
+unshift() - Adds one or more elements to the beginning of an array and returns the new length.
+values() - Returns a new Array Iterator object that contains the values for each index in the array.
+Symbol.iterator - Returns a new Array Iterator object that contains the values for each index in the array.
+[Symbol.species] - A constructor used to create derived objects.

@@ -46,3 +46,24 @@ console.log(`secondLargest: ${secondLargest(arr)}`);
     }
 const arr1 = [0]
 console.log(`consecutive length: ${findConsecutive(arr1)}`);
+
+
+function smallestAndLargest(nums) {
+    let smallest = Infinity;
+    let largest = -Infinity
+
+    for(let num of nums){
+        if(num > largest){
+            largest = num
+        }
+
+        if(num < smallest){
+            smallest = num
+        }
+    }
+
+    return [smallest, largest];
+}
+
+const nums = [1,2,4,76,8,4]
+console.log(smallestAndLargest(nums));

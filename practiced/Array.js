@@ -29,4 +29,4 @@ const values =
 
 const [{value:email}, {value:name}, {value:password}] = values
 
-console.log(name, email, password)
+console.log(name, email, password);
