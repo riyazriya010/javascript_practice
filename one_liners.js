@@ -1,3 +1,4 @@
+
 // Merge two array remove duplicates
 const mergedArr = (arr1,arr2) => [...new Set([...arr1, ...arr2])]
 
@@ -10,8 +11,8 @@ console.log(mergedArr(arr1, arr2))
 // check anagraham of two words
 const isAnagaraham = (str1, str2) => [...str1.toLowerCase()].sort().join('')
                      === [...str2.toLowerCase()].sort().join('')
-const str1 = 'Listen'
-const str2 = 'Silent'
+const str1 = 'Listen';
+const str2 = 'Silent';
 console.log(isAnagaraham(str1, str2))
 
 
